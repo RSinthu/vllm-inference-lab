@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------
+# Model weights & caches (large – keep out of git)
+# ---------------------------------------------------------------
+Models/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+.cache/
+hf_cache/
+huggingface/
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+vllm-env/
+.python-version
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ---------------------------------------------------------------
+# Benchmark / evaluation run artifacts
+# (results summaries are kept; raw logs & scratch output are not)
+# ---------------------------------------------------------------
+*.log
+logs/
+wandb/
+tmp/
+scratch/
+
+# ---------------------------------------------------------------
+# Secrets & local config
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------
+# Editors & OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

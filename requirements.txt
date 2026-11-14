@@ -1,0 +1,18 @@
+# Install inside WSL (Ubuntu), Python 3.12 — vLLM does not run natively on Windows.
+
+# --- Serve models on the GPU ---
+vllm==0.18.0
+
+# --- Talk to the vLLM server (L6, L7) ---
+openai
+requests
+
+# --- Benchmark speed: latency / throughput (L7) ---
+guidellm
+
+# --- Evaluate accuracy against the server (L7) ---
+lm_eval[api]
+
+# --- Run the notebooks with this environment as the kernel ---
+jupyter
+ipykernel
