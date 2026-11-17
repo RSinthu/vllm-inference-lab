@@ -1,4 +1,6 @@
 # Install inside WSL (Ubuntu), Python 3.12 — vLLM does not run natively on Windows.
+#   uv pip install -r requirements.txt --torch-backend=cu128
+# Ubuntu also needs a C compiler for Triton:  sudo apt install -y build-essential
 
 # --- Serve models on the GPU ---
 vllm==0.18.0

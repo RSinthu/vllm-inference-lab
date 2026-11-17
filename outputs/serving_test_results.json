@@ -1,0 +1,40 @@
+{
+  "qwen3-0.6b-bf16": {
+    "disk_gb": 1.5,
+    "weights_gib": 1.12,
+    "kv_cache_tokens": 26144,
+    "latency_s": 1.0,
+    "answer": "The capital of France is **Paris**.",
+    "mean_logprob": -0.0212,
+    "elapsed_s": 0.811,
+    "peak_running": 5.0,
+    "tokens_per_s": 370.1,
+    "prefix_hit_rate_pct": 42.7,
+    "single_tokens_per_s": 114.5,
+    "quality_answers": {
+      "What is 17 * 23? Answer with the number only.": "17 \u00d7 23 = **391**.",
+      "What is the chemical symbol for gold? Answer with the symbol only.": "Au",
+      "Who wrote 'Pride and Prejudice'? Answer with the name only.": "Pride and Prejudice",
+      "What is the largest planet in the solar system? Answer with one word.": "Mercury"
+    }
+  },
+  "qwen3-0.6b-gptq-w8a16": {
+    "disk_gb": 0.76,
+    "weights_gib": 0.74,
+    "kv_cache_tokens": 29632,
+    "latency_s": 0.588,
+    "answer": "The capital of France is **Paris**.",
+    "mean_logprob": -0.022,
+    "elapsed_s": 0.61,
+    "peak_running": 5.0,
+    "tokens_per_s": 492.2,
+    "prefix_hit_rate_pct": 42.7,
+    "single_tokens_per_s": 161.0,
+    "quality_answers": {
+      "What is 17 * 23? Answer with the number only.": "17 \u00d7 23 = 391.",
+      "What is the chemical symbol for gold? Answer with the symbol only.": "Au",
+      "Who wrote 'Pride and Prejudice'? Answer with the name only.": "Pride and Prejudice",
+      "What is the largest planet in the solar system? Answer with one word.": "Mercury"
+    }
+  }
+}
